@@ -1,0 +1,119 @@
+/* Variables */
+:root {
+    --link-hover-color: ;
+    --nav-hover-color: #3f3f3f;
+    --main-background-color: #c9c9c9;
+    --secondary-background-color: #eeeeee;
+    --section-text-color: #3c3c3c;
+    --sub-text-color: #777777;
+    --secondary-text-color: #e9e9e9; 
+    --active-color: rgba(0, 0, 255, 0.84);
+    --active-text-color: gold;
+
+
+}
+/* Global */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+}
+main {
+    flex: 1 0 auto;
+  }
+
+/* Nav */
+nav {
+    font-family: 'Oswald', sans-serif;
+    height: 105px;
+    line-height: 75px;
+    padding-top: 15px;
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.34);
+}
+nav .brand-logo {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 2px -4px 6px rgba(249, 228, 45, 0.4), 2px 4px 14px rgba(11,0,134,0.9), 0px 18px 23px rgba(0,0,0,0.1);
+}
+nav ul li.active a{
+    background-color: rgba(0, 0, 255, 0.84);
+}
+nav ul li.active a {
+    color: gold;
+}
+.nav-wrapper {
+    border: none;
+}
+.nav-wrapper a {
+    color: black;
+}
+nav ul a:hover {
+    color: #fff;
+    background: var(--section-text-color);
+
+}
+
+.sidenav img {
+    width: 100%;
+    height: 300px;
+}
+
+/* Home */
+/* .home-img {
+    padding: 15px 0 0 0;
+} */
+.home-img img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.home-img .splash-img {
+    margin: 0 0px -314px 360px;
+    width: 45%;
+}
+
+.home-content {
+    margin: ;
+}
+.home-content h5 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: var(--sub-text-color);
+    padding: 10px 0 0 0;
+    
+}
+
+/* Footer */
+
+.page-footer{
+    background: var(--section-text-color);
+    font-family: 'Oswald', sans-serif;
+    padding-top: 5px;
+}
+.footer-content .footer-title {
+    font-weight: 600;
+    text-transform: uppercase; 
+}
+
+.footer-content .footer-words {
+    font-weight: 300;
+    margin: 0 170px 0 0;
+}
+
+.social-links-foot a {
+    color: var(--active-color);
+}
+.social-links-foot a:hover {
+    color: var(--active-text-color);
+}
+
+.page-footer .footer-copyright {
+    font-weight: 100;
+    text-align: center;
+    padding: 0 0 10px 0;
+}

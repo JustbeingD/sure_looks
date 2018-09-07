@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Source+Serif+Pro:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="./stylesheets/cssreset.css"> -->
+ 
+    <link rel="stylesheet" href="./stylesheets/looks.css">
+</head>
+<body>
+    <header>
+    <!-- Nav Start-->
+    <div class="container">
+        <nav>   
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <a href="#" class="brand-logo center">Sure Looks</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=70d09974c4be252b9d20274ef0122ce9&auto=format&fit=crop&w=989&q=80" alt="">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contat Us</a></li>
+    </ul>
+    <!--Nav End-->
+    </header>
+    <main>
+    <!-- Home Start-->
+
+    <section id="home">
+        <div class="container">
+            <div class="home-img">
+                    <!-- <img class="splash-img" src="./images/splash.png" alt="splash of water"> -->
+                <img src="./images/new_new.png" alt="white BMW X4">
+               
+                </div>
+                
+    
+            <div class="home-content">
+            <h5>Excellent service, all the time</h5>
+            </div>
+        </div>
+    </section>
+    <!-- Home End-->
+    </main>
+    <!-- <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                        <div class="col s4">
+                            <h6>About sure looks:</h6>
+                            </div>
+                            <div class="col s4">
+                                    <h6>hours:</h6>
+                                    </div>
+                                    <div class="col s4">
+                                            <h6>connect with us on:</h6>
+                                            </div>
+                      </div>
+                </div>
+        </div>
+    </footer>  -->
+ 
+    <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l4 s12">
+                    <div class="footer-content">
+                  <h6 class="footer-title">about sure looks:</h6>
+                  <p class="footer-words">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At iste autem dicta voluptatum laborum natus quis fugiat blanditii aspernatur, explicabo nulla laudantium consectetur possimus repellat? Quam, distinctio</p>
+                  </div>
+                </div>
+                <div class="col l4 s12">
+                        <div class="footer-content">
+                                <h6 class="footer-title">hours:</h6>
+                                <p class="footer-words">Monday - Saturday: 12:00 - 12:00
+                                    <br>
+                                    Sunday: Closed</p>
+                                </div>
+                </div>
+                <div class="col l4 s12">
+                        <div class="footer-content">
+                                <h6 class="footer-title">connect with us on:</h6>
+                                <div class="social-links-foot">
+                                        <a class="a-hover" href="#">
+                                        <span class="fa-stack fa-2x">
+                                            <i class="fas fa-square fa-stack-2x"></i>
+                                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        </a>
+                                        <a class="a-hover" href="#">
+                                            <span class="fa-stack fa-2x">
+                                                <i class="fas fa-square fa-stack-2x"></i>
+                                                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                        <a class="a-hover" href="#">
+                                            <span class="fa-stack fa-2x">
+                                                <i class="fas fa-square fa-stack-2x"></i>
+                                                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                               
+                                </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+                © 2014 Copyright Sure Looks
+              </div>
+            </div>
+          </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+</body>
+<script>
+     M.AutoInit();
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+          });
+
+
+        </script>
+</html>

@@ -69,11 +69,20 @@ nav .brand-logo {
     font-size: 4rem;
     text-transform: uppercase;
     text-shadow: 2px -4px 6px rgba(249, 228, 45, 0.4), 2px 4px 14px rgba(11,0,134,0.9), 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+nav .brand-logo .sl {
+    margin: 0;
+}
+.brand-logo p {
+    margin-top: -114px
 }
 nav .brand-logo span {
     font-family: 'Source Serif Pro', serif;
     text-transform: uppercase;
     font-size: 20px;
+    margin-top: -114px;
 
 }
 nav ul li.active a{
@@ -198,6 +207,16 @@ nav ul a:hover {
 } */
 
 /* Contact */
+.contact-side ul{
+    display: inline-flex;
+}
+.contact-side li {
+    padding: 3px;
+}
+.input-field label {
+    color: blue;
+  }
+
 /* .btn {
     background: var(--active-color);
 }
@@ -210,17 +229,17 @@ nav ul a:hover {
 
 @media only screen and (max-width: 770px){
 nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 155px;
+    height: 175px;
     line-height: 64px;
 }
 
-nav .brand-logo span {
-   display: none;
+.brand-logo p {
+   margin-top: -95px;
 
 }
 }
-@media only screen and (max-width: 1300px){
+/* @media only screen and (max-width: 1300px){
     nav .brand-logo span {
         display: none;
-    }
+    } */
 }

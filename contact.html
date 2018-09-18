@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Source+Serif+Pro:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- <link rel="stylesheet" href="./stylesheets/cssreset.css"> -->
@@ -24,9 +25,9 @@
                         <li><a href="surelooks.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                     </ul>
-                    <a href="sureLooks.html" class="brand-logo center">Sure Looks
-                        <span>By Steve</span>
-                    </a>
+                    <a href="#" class="brand-logo center"><p class="sl">Sure Looks<p>
+                            <p> <span>By Steve</span></p>
+                         </a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="services.html">Services</a></li>
@@ -54,8 +55,41 @@
                     <h3>Contact Us</h3>
                 </div>
                 <div class="content-main">
+                       
+                            <div class="contact-head">
+                                    
+                                <div class="row">
+                                        <div class="col s12 l5">
+                                                <h5>Please contact us for your vehicle detail appointment</h5>
+                                                <p>We provide the ultimate mobile auto detailing experience for Cental New Jerssey and surrounding areas including Union and Essex counties. We come to you with our fully equipped, powered mobile unit that is outfitted with everything needed to provide your vehicle the finest professional detail available. Contact us today to arrange for an appointment</p>
+                                        </div>
+
+                                </div>
+                                
+                              
+                            </div>
+                    
                     <div class="row">
-                        <form class="col s12 offset-l3 l6 offset-l3">
+                        <div class="col l2">
+                            <div class="contact-side">
+                            <h5>Email</h5>
+                            <p>Surelooks@gmail.com</p>
+                            <hr>
+                            <h5>Phone</h5>
+                            <p>888-888-8888</p>
+                            <hr>
+                            <h5>On the Web</h5>
+                            <ul>
+                               <a href="#"> <li>Twitter</li></a>
+                                <li>|</li>
+                                <a href="#"><li>Facebook</li></a>
+                                <li>|</li>
+                                <a href="#"><li>Instagram</li></a>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                        <form id="contact-form" method="post" action="contact-form-handler.php" class="col s12 l6 offset-l4">
                             <div class="row">
                                 <div class="input-field col s6">
                                     <input id="first_name" type="text" class="validate">
@@ -68,6 +102,13 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="phone" type="number" class="validate">
+                                    <label for="phone">Phone</label>
+                                    <span class="helper-text" data-error="wrong" data-success="right"></span>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="input-field col s12">
                                     <textarea id="textarea1" class="materialize-textarea"></textarea>
                                     <label for="textarea1">Message</label>
@@ -76,12 +117,13 @@
                             <div class="divider"></div>
                             <div class="row">
                                 <div class="col m12">
-                                    <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="submit"
+                                    <p class="right-align"><button class="btn light-blue darken-3" type="submit"
                                             name="action">Send Message</button>
                                         </p>
                                 </div>
                             </div>
                         </form>
+                        </div>
                     </div>
                 </div>
             </div>
